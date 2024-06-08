@@ -86,7 +86,7 @@ html {
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    /*gap: 2rem; * nueva forma de separacion**/
+    gap: 2rem;/* nueva forma de separacion**/
 }
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
@@ -98,5 +98,12 @@ html {
 .navegacion__enlace:hover{
     color: var(--secundario);
 }
+
+/** Productos **/
+.producto {}
+.producto__imagen{}
+.producto__informacion{}
+.producto__nombre{}
+.producto__precio{}
 
 
